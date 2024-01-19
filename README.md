@@ -1,5 +1,7 @@
 # Hyperlane CLI
 
+A cross-chain messaging CLI using the [Hyperlane Interchain Protocol](https://www.hyperlane.xyz/)
+
 ## Install Instructions
 To install, first clone the repo. Then, ``yarn install`` and ``yarn build``
 ```
@@ -21,6 +23,12 @@ source .env
 
 And you're ready to go!
 
+## API
+
+#### Table of Contents
+
+1. [Send Message](https://github.com/yoyobojo/hyperlane-cli?tab=readme-ov-file#send)
+2. [Search for Message](https://github.com/yoyobojo/hyperlane-cli?tab=readme-ov-file#search)
 
 ### Send 
 
