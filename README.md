@@ -9,17 +9,20 @@ yarn install && yarn build;
 yarn hyperlane
 ```
 
-## Send 
-First, set your private key up using 
+Now that it's installed, go ahead and rename the `.env.example` to `.env`:
 ```
-export PRIVATE_KEY=private-key-goes-here
+mv .env.example .env
 ```
 
-and then set up your RPCs: 
+Lastly, add your values to the environment variables in `.env` then make it known to your machine with:
 ```
-export AVAX_FUJI_RPC=rpc-url-goes-here
-export ETH_GOERLI_RPC=rpc-url-goes-here 
+source .env
 ```
+
+And you're ready to go!
+
+
+### Send 
 
 To ``Send`` via the ``dispatch()`` function, use the following syntax. You can use this handy one here:
 ```
@@ -28,7 +31,7 @@ yarn hyperlane send -sr $AVAX_FUJI_RPC -d 0x4fC0Ac163eFFEb7890937cB89275B2C23188
 
 The cli tool will then send your message and check until the message has been delivered on your desired chain. Sweet!
 
-## Search
+### Search
 Now let's search for the message we just sent. First, for easy access, export the corresponding address for the private key used to send:
 ```
 export ADDRESS=address-goes-here
