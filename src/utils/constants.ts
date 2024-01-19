@@ -1,0 +1,17 @@
+//constants for Hyperlane contracts
+//maps chain id to contract address
+//testnet only for this challenge
+export const contracts: { [key: string]: string } = {
+	"5": "0x49cfd6Ef774AcAb14814D699e3F7eE36Fdfba932", //goerli
+	"84531": "0x58483b754Abb1E8947BE63d6b95DF75b8249543A", //basegoerli
+	"421613": "0x13dABc0351407d5aAa0A50003a166A73b4febfDc", //arbgoerli
+	"420": "0xB5f021728Ea6223E3948Db2da61d612307945eA2", //nice/opgoerli
+	"534351": "0x3C5154a193D6e2955650f9305c8d80c18C814A68",
+	"44787": "0xEf9F292fcEBC3848bF4bB92a96a04F9ECBb78E59",
+	"1442": "0x598facE78a4302f11E3de0bee1894Da0b2Cb71F8",
+	"11155111": "0xfFAEF09B3cd11D9b20d1a19bECca54EEC2884766",
+	"43113": "0x5b6CFf85442B851A8e6eaBd2A4E4507B5135B3B0", //fuji
+	"97": "0xF9F6F5646F478d5ab4e20B0F910C92F1CCC9Cc6D", //bsctestnet
+	"1287": "0x76189acFA212298d7022624a4633411eE0d2f26F",
+	"80001": "0x2d1889fe5B092CD988972261434F7E5f26041115",
+};
