@@ -1,4 +1,4 @@
-# Hyperlane-cli Challenge
+# Hyperlane CLI
 
 ## Install Instructions
 To install, first clone the repo. Then, ``yarn install`` and ``yarn build``
